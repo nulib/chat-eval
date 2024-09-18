@@ -1,4 +1,5 @@
 .env
+.env.*
 pipfile
 pipfile.lock
 output_files/
