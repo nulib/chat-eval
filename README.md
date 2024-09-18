@@ -7,7 +7,7 @@ This repo contains two notebooks to help run evaluations of DCAPI's chat functio
 
 ## AWS and DCAPI authorization
 
-- `PrepareEvaluationData` - requires you to [obtain a DCAPI authorization token](PrepareEvaluationData.ipynb#Prerequisite: Setup Environment Variables) and add it to your environment. 
+- `PrepareEvaluationData` - requires you to obtain a DCAPI authorization token and [Setup Environment Variables](PrepareEvaluationData.ipynb#Setup-Environment-Variables) and add it to your environment. 
 - `ScoreAnswers` requires you to be logged in as either a `staging` or `production` user (login in your terminal **__before__** launching you Jupyter notebook)
 
 
