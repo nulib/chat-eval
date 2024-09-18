@@ -2,13 +2,13 @@
 
 This repo contains two notebooks to help run evaluations of DCAPI's chat functionality. 
 
-- [PrepareEvaluationData](PrepareEvaluationData.ipynb) - Takes a list of questions and gets answers from DCAPI. Outputs spreadsheet to be used as input for Azure evaluations or for the `ScoreAnswers` notebook.
+- [PrepareEvaluationData](PrepareEvaluationData.ipynb) - Takes a list of questions and gets answers from DCAPI. Outputs spreadsheet to be used as input for for the `ScoreAnswers` notebook (or for Azure evaluations).
 - [ScoreAnswers](ScoreAnswers.ibynb) - Takes a spreadsheet of question, answer, and ground_truths produced from `PrepareEvaluationData` and scores the responses using AWS Bedrock.
 
 ## AWS and DCAPI authorization
 
 - `PrepareEvaluationData` - requires you to obtain a DCAPI authorization token and [Setup Environment Variables](PrepareEvaluationData.ipynb#Setup-Environment-Variables) and add it to your environment. 
-- `ScoreAnswers` requires you to be logged in as either a `staging` or `production` user (login in your terminal **__before__** launching you Jupyter notebook)
+- `ScoreAnswers` requires you to be logged in as either a `staging` or `production` user (login in your terminal **__before__** launching your Jupyter notebook)
 
 
 ## Environment Setup (optional)
