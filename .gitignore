@@ -2,6 +2,9 @@
 .env.*
 pipfile
 pipfile.lock
+bin
+Pipfile
+Pipfile.lock
 
 *.bundle.*
 lib/
