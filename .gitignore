@@ -2,7 +2,6 @@
 .env.*
 pipfile
 pipfile.lock
-output_files/
 
 *.bundle.*
 lib/
