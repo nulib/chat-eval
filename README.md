@@ -1,4 +1,4 @@
-# Chat Evalation Prep
+# DCAPI Chat Evaluation
 
 This repo contains two notebooks to help run evaluations of DCAPI's chat functionality. 
 
